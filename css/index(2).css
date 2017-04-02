@@ -1,0 +1,65 @@
+html, body {
+  font: 1.0em 'Libre Baskerville', serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+  height: 100%;
+}
+h3 {
+  font-family: 'Crete Round', serif;
+}
+p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2em;
+  color: ;
+  text-align: left;
+}
+.navbar {
+  padding: 15px 0 15px 0;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 1.0em;
+  letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+  color: #5bc0de !important;
+}
+/*.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+/*  min-height: 100%;
+  overflow: auto;
+} */
+.cntent {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.center-block {
+  padding-top: 10%;
+}
+.bg-1 {
+  background-image: url("../images/bground.jpg");
+  background-color: #5bc0de;
+  color: #fff;
+  min-height: 100%;
+/*  height: 800px; */
+}
+.bg-2 {
+  background-color: #474e5d;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.bg-3 {
+  background-color: #ffffff;
+  color: #555555;
+  min-height: 100%;
+}
+.bg-4 {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
